@@ -1,6 +1,7 @@
 # By :- Om Nai
 # Date :- 28 June 2022
 
+
 class Node:
     def __init__(self, value=None) -> None:
         self.value = value
@@ -62,11 +63,12 @@ class Queue:
 
 
 customeQueue = Queue()
+
 customeQueue.enqueue(78)
 customeQueue.enqueue(95)
 customeQueue.enqueue(13)
 customeQueue.enqueue(63)
 customeQueue.enqueue(88)
 customeQueue.display()
-print("\nThe element dequeued : ",customeQueue.dequeue())
+print("\nThe element dequeued : ", customeQueue.dequeue())
 customeQueue.display()
